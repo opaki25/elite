@@ -6,3 +6,6 @@
 @media(max-width:380px){.header-book{display:none}.menu-toggle{margin-left:auto}.hero{min-height:710px}.hero-landscape{top:340px}.hero-location{top:430px}.hero-car{bottom:40px}.hero-copy>p:not(.eyebrow){font-size:13px}.hero-actions{gap:17px}.hero-copy .eyebrow{font-size:7px}.journey-bar-title strong{font-size:23px}.trust-bar{font-size:7px}.fleet-tabs button{min-width:56px;font-size:12px}.values{font-size:21px}.booking form{grid-template-columns:1fr}.booking form label{grid-column:1/-1}.car-image{min-height:200px}.car-image img{height:180px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 .hero{z-index:3}@media(max-width:760px){.hero{z-index:1}}
+
+/* Compact service cards: icon, title, and booking action. */
+.service-grid article{min-height:215px}.service-grid h3{margin-bottom:24px}.custom-service h3{font-size:32px}.custom-service .eyebrow{margin-bottom:16px}@media(max-width:760px){.service-grid article{min-height:0}.service-grid h3{margin-bottom:0}.custom-service h3{margin-bottom:22px}}
